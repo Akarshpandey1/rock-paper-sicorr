@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: palevioletred;
+}
 h1{
     height: 5rem;
     line-height: 5rem;
@@ -42,8 +45,13 @@ img{
     font-size: 2rem;
     gap: 5rem;
 }
-#user ,#comp{
+    #user ,#comp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 4rem;
+    border: 2px solid wheat;
+    border-radius: 2rem;
 }
 
 #msg{
@@ -65,5 +73,9 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#msg:hover{
+    cursor: pointer;
+    background-color: rgb(205, 31, 31);
 }
 
